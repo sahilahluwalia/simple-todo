@@ -95,6 +95,7 @@ function App() {
               </>
             );
           }
+          return null
         })}
       <h3>List of Pending tasks</h3>
       {items &&
@@ -121,6 +122,7 @@ function App() {
               </>
             );
           }
+          return null
         })}
     </>
   );
