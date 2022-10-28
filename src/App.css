@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+h2 {
+  padding: 25px 10px;
+  display: flex;
+  justify-content: center;
+}
+.container,
+h3,
+.mid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.taskBg {
+  padding: 10px;
+  margin: 20px;
+  width: 500px;
+  background-color: #161618;
+  color: white;
+  
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+
+.btn{
+  display: flex;
+  gap:20px;
+  margin-top:20px
+}
+.task-text{
+  margin:10px;
+  font-size: large;
+}
+
+.taskBg .done .task-text {
+  text-decoration: line-through;
+}
+
+
+.incomplete{
+  background-color: red;
+}
+
+.complete{
+  background-color: green;
+}
+button{
+  padding:5px 10px;
+  
+}
+button:hover{
+  cursor: pointer;
+  
+}
+body{
+  background-color: rgb(249 250 251);
+}
+
+.col{
+   margin:auto;
+   margin-top:10px;
+   margin-bottom: 20px;
+}
